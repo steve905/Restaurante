@@ -1,0 +1,28 @@
+.welcome-card img {
+    max-height: 45vh;
+    overflow: hidden;
+    /*Queda fijo el menu y el contenido es dinamico*/
+}
+
+h1 {
+    font-size: 20px;
+    color: #5890D6;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #5890D6;
+}
+
+.paddingt,
+.paddingt2 {
+    text-align: center;
+}
+
+.headerT {
+    background-color: #0053BA;
+    color: aliceblue;
+    text-align: end;
+    padding-right: 20px;
+}

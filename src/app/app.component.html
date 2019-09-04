@@ -1,0 +1,26 @@
+<ion-app>
+    <ion-header>
+        <!-- <ion-toolbar>
+            <ion-title>
+                Menu
+            </ion-title>
+        </ion-toolbar> -->
+      </ion-header>
+      <ion-menu side="start" menuId="first" contentId="principal">
+        <ion-header>
+            <ion-toolbar color="primary">
+                <ion-title>MESERO</ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+            <ion-list>
+                <ion-item>Mesas</ion-item>
+                <ion-item>Modificar Pedido</ion-item>
+                <ion-item>Cerrar Sesion</ion-item>
+            </ion-list>
+        </ion-content>
+      </ion-menu>
+      <ion-router-outlet id="principal"></ion-router-outlet>
+      <ion-content></ion-content>
+  <ion-router-outlet></ion-router-outlet>
+</ion-app>

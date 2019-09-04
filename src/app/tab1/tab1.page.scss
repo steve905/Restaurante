@@ -1,0 +1,29 @@
+.welcome-card img {
+    max-height: 45vh;
+    overflow: hidden;
+    /*Queda fijo el menu y el contenido es dinamico*/
+}
+
+h1 {
+    font-size: 55px;
+    color: #5890D6;
+}
+
+h2 {
+    font-size: 30px;
+    color: #5890D6;
+}
+
+.paddingt,
+.paddingt2 {
+    text-align: center;
+}
+
+.space {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #5890D6;
+    font-size: 18px;
+}
