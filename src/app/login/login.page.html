@@ -6,6 +6,19 @@
 
 <ion-content padding>
     <img class="icon" src="assets/images/imgLogin.jpg">
+    <ion-segment (ionChange)="segmentChanged($event)">
+            <ion-segment-button value="friends">
+              <ion-label>Perfil</ion-label>
+            </ion-segment-button>
+            <ion-segment-button value="enemies">
+              <ion-label>Registro</ion-label>
+            </ion-segment-button>
+          </ion-segment>
+          <ion-item>
+                <ion-button size="small">Mesero</ion-button>
+                <ion-button size="small">Cocina</ion-button>
+                <ion-button size="small">Cajero</ion-button>
+          </ion-item>
         <ion-item>  
                 <ion-input placeholder="Perfil"></ion-input>
         </ion-item>
@@ -16,4 +29,5 @@
                 <ion-input placeholder="Contraseña"></ion-input>
         </ion-item>
             <ion-button expand="block" [routerLink]="[ 'home/tabs/tab2']">INGRESAR</ion-button>
+            
 </ion-content>

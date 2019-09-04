@@ -8,15 +8,19 @@
       </ion-header>
       <ion-menu side="start" menuId="first" contentId="principal">
         <ion-header>
-            <ion-toolbar color="primary">
-                <ion-title>MESERO</ion-title>
-            </ion-toolbar>
+                <ion-item>
+                        <ion-avatar slot="start">
+                          <img src="assets/images/user.png">
+                        </ion-avatar>
+                        <ion-label class="primary">MESERO</ion-label>
+                      </ion-item>
         </ion-header>
+
         <ion-content>
             <ion-list>
-                <ion-item>Mesas</ion-item>
-                <ion-item>Modificar Pedido</ion-item>
-                <ion-item>Cerrar Sesion</ion-item>
+                <ion-item><ion-icon name="folder-open"></ion-icon>Mesas</ion-item>
+                <ion-item><ion-icon name="options"></ion-icon>Modificar Pedido</ion-item>
+                <ion-item><ion-icon name="power"></ion-icon>Cerrar Sesion</ion-item>
             </ion-list>
         </ion-content>
       </ion-menu>
