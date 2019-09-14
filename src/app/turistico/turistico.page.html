@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>turistico</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- <ion-content {{data.title}}> -->
+  <ion-content>
+  <ion-grid>
+  <ion-row>
+      <ion-col size="6" *ngFor='let d of data' (click)="showModal(d.data)">
+        <div>
+            <img [src] = 'd.img'>
+            <!-- <img src="/assets/images/gastronomica.png"/> -->
+        </div>
+      </ion-col>
+    </ion-row>
+    </ion-grid>
+
+</ion-content>

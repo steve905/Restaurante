@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ngif</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1>{{nam}}</h1>
+
+  <h2>{{usuario.name}}</h2>
+  <h2>{{usuario.password}}</h2>
+  <h2>{{usuario.state}}</h2>
+
+  <h3>{{usuario2[0].name}}</h3>
+  <h3>state:{{usuario2[0].state}} </h3>
+  <h3>{{usuario2[1].name}}</h3>
+  <h3>state:{{usuario2[1].state}}</h3>
+
+  <ul *ngFor = 'let user of usuario2'>
+    <li>{{user.name}}</li>
+
+  <span *ngIf='user.state'>
+      <li>{{user.name}}</li>
+    </span>
+  </ul>
+
+
+</ion-content>
